@@ -1,0 +1,75 @@
+Basic Widgets
+  1.Container: A versatile widget for creating rectangular visual elements.
+  2.Row: A widget for arranging children horizontally.
+  3.Column: A widget for arranging children vertically.  
+  4.Stack: A widget for overlaying children on top of each other.
+  5.Expanded: A widget that expands a child of a Row, Column, or Flex to fill available space.
+  6.Padding: Adds padding around a widget.
+Layout Widgets
+  1.Align: Aligns a child widget within its parent.
+  2.Center: Centers a child widget within its parent.
+  3.SizedBox: Creates a box with a specific size.
+  4.FractionallySizedBox: Sizes a child to a fraction of its parent’s size.
+  5.Wrap: A widget that wraps its children in horizontal or vertical runs.
+  6.GridView: Creates a scrollable, 2D array of widgets.
+Input Widgets
+  1.TextField: A widget for text input.
+  2.Checkbox: A widget for binary choices.
+  3.Radio: A widget for selecting one option from a set.
+  4.Switch: A widget for on/off states.
+  5.Slider: A widget for selecting a value from a range.
+  6.Form: A widget for grouping and validating multiple input fields.
+Button Widgets
+  1.ElevatedButton: A button with a material design elevation.
+  2.TextButton: A button with text only.
+  3.OutlinedButton: A button with an outlined border.
+  4.IconButton: A button with an icon.
+  5.FloatingActionButton: A circular button that floats above the content.
+Scrolling Widgets
+  1.ListView: A scrollable list of widgets.
+  2.SingleChildScrollView: A scrollable widget that wraps a single child.
+  3.PageView: A scrollable list that works page-by-page.
+  4.CustomScrollView: A scroll view with custom scroll effects and slivers.
+Navigation Widgets
+  1.Navigator: Manages a stack of pages.
+  2.Drawer: A slide-in menu for navigation.
+  3.BottomNavigationBar: A navigation bar at the bottom of the screen.
+  4.TabBar: A tab-based navigation bar.
+  5.PageRouteBuilder: For creating custom page transitions.
+Decoration Widgets
+  1.DecoratedBox: A box with decoration (e.g., background color, border).
+  2.BoxDecoration: Used with Container to add decoration like gradients, borders, and shadows.
+  3.Card: A material design card with a shadow.
+  4.ClipRRect: Clips its child using a rounded rectangle.
+Text Widgets
+  1.Text: Displays a string of text with single style.
+  2.RichText: Displays text with multiple styles.
+  3.SelectableText: A widget that allows text to be selectable and copied.
+Image Widgets
+  1.Image: Displays an image from various sources (network, asset, file).
+  2.FadeInImage: Displays a placeholder while an image is loading.
+Animations
+  1.AnimatedContainer: Animates changes to properties of a container.
+  2.AnimatedOpacity: Animates the opacity of a widget.
+  3.AnimatedBuilder: Builds a widget tree that is animated.
+  4.Hero: Creates a hero animation between routes.
+Async Widgets
+  1.FutureBuilder: Builds a widget based on the result of a Future.
+  2.StreamBuilder: Builds a widget based on the result of a Stream.
+Utility Widgets
+  1.LayoutBuilder: Builds a widget based on the parent widget’s constraints.
+  2.MediaQuery: Provides information about the size and orientation of the screen.
+  3.Context: Provides access to the widget tree's context for inherited widgets.
+Custom Widgets
+  1.CustomPainter: Custom painting on a canvas.
+  2.CustomScrollView: A scrollable area that allows for custom scroll effects and slivers.
+Dialogs and Bottom Sheets
+  1.AlertDialog: A material design dialog with a title and content.
+  2.SimpleDialog: A material design dialog with a list of options.
+  3.BottomSheet: A material design bottom sheet that slides up from the bottom of the screen.
+State Management
+  1.Provider: A way to manage and provide state in an app.
+  2.Consumer: A widget that listens to changes in Provider and rebuilds itself.
+Testing and Debugging
+  1.TestWidgets: Used in widget testing to interact with and verify widget behavior.
+  2.DebugPrint: Prints debug information to the console.
